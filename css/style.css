@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&family=Oswald:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.logo {
+    width: 15vh;
+}
+
+.navbar-nav {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    font-size: 2.5vh;
+    padding-inline: 2%;
+}
+
+.pie {
+    height: 40vh;
+}
+
+.pie-div {
+    height: 100%;
+}
+
+.red-social {
+    color: white;
+    font-size: 4.5vh;
+}
+
+.icono-pie {
+    color: white;
+    font-size: 3vh;
+}
+
+.ttt {
+    font-size: 2vh;
+}
+
+.hero {
+    background-image: url("../images/c1.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contacto {
+    background-image: url("../images/contacto.jpg");
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo {
+    font-family: 'Oswald', sans-serif;    
+}
+
+.cajas {
+    display: grid;
+    margin-block: 7vh;
+    width: 160vh;
+    height: 70vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.caja {
+    border: 1px solid black;
+    margin: 1vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+
+.caja1 {
+    background-image: url("../images/c1.jpg");
+}
+.caja2 {
+    background-image: url("../images/c2.jpg");
+}
+.caja3 {
+    background-image: url("../images/c3.jpg");
+}
+.caja4 {
+    background-image: url("../images/c4.jpg");
+}
+.caja5 {
+    background-image: url("../images/c5.jpg");
+}
+.caja6 {
+    background-image: url("../images/c6.jpg");
+}
+
+.foto {
+    width: 100%;
+}
+
+.foto2 {
+    max-height: 60vh;
+}
+
+.modelo {
+    font-size: 3rem;
+}
+
+.modelo2 {
+    font-size: 1.5rem;
+}
+.modelo3 {
+    font-size: 1.25rem;
+}
